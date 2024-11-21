@@ -15,10 +15,17 @@ When the Processor receives a request for an action, the control flow is passed 
 Build
 =====
 You can build using Visual Studio 2022 or later, using C++14.
+Only the Release for x64 build configuration is setup. I have not tested with other configurations yet.
+Therefore, ensure your build configuration is set to Release for x64 before attempting to build.
 
 Test
 =====
 The TransactionServiceTest project uses Google Test to demonstrate some of the state transactions, including when timeout occurs.
+You can read more about how to setup Google Test for your projects in my blog:
+https://robertbui.com/how-to-test-driven-development-using-google-test-on-visual-studio-2022/
+
+You will also learn how to run the tests as well.
+
 
 
 
